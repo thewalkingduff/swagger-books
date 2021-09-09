@@ -6,7 +6,7 @@ const swaggerUI = require("swagger-ui-express");
 const swaggerJsDoc = require('swagger-jsdoc');
 const booksRouter = require("./routes/books");
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4000
 
 const FileSync = require('lowdb/adapters/FileSync');
 
